@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RealTest2</string>
+    <string name="username">Enter username</string>
+    <string name="password">Enter password</string>
+    <string name="partyName">Enter party name</string>
+    <string name="login">Login</string>
 </resources>
