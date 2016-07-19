@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.alex.realtest2">
-
+    package="com.example.alex.jukebox">
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -19,11 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <service android:name=".MP3_Service" />
-
-        <activity android:name=".mp3ModeMainActivity" />
-        <activity android:name=".DJ_Login"></activity>
+        <activity
+            android:name=".mp3ModeMainActivity"
+            android:label="@string/title_activity_mp3_mode_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DjLoginActivity"
+            android:label="@string/title_activity_dj_login"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <service android:name=".MP3_Service"/>
     </application>
 
 </manifest>

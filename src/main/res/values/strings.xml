@@ -1,7 +1,5 @@
 <resources>
-    <string name="app_name">RealTest2</string>
-    <string name="username">Enter username</string>
-    <string name="password">Enter password</string>
-    <string name="partyName">Enter party name</string>
-    <string name="login">Login</string>
+    <string name="app_name">Jukebox</string>
+    <string name="title_activity_mp3_mode_main">mp3ModeMainActivity</string>
+    <string name="title_activity_dj_login">DjLoginActivity</string>
 </resources>
