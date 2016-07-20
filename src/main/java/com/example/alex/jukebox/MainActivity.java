@@ -25,5 +25,11 @@ public class MainActivity extends AppCompatActivity {
         switchToDj=new Intent(this,DjLoginActivity.class);
         startActivity(switchToDj);
     }
+    
+    //listens for voter button being clicked
+     public void voterModeClicked(View view){
+        switchToVoter=new Intent (this,voterModeMainActivity.class);
+        startActivity(switchToVoter);
+    }
 
 }
